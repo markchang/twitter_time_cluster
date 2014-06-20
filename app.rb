@@ -1,3 +1,13 @@
+# this clusters a user's last 200 tweets into 500s bins
+# and displays a little information about those bins
+#
+# create an app.yml that has your twitter api credentials
+#
+# app.yml:
+# consumer_key: "blargh"
+# consumer_secret: "foomf"
+
+
 require 'twitter'
 require 'yaml'
 
